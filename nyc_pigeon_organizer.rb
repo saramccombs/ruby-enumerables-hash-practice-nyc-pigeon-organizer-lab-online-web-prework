@@ -8,9 +8,6 @@
 def nyc_pigeon_organizer(data)
   pigeon_list = {}
   
-  pigeon_list[data[:color][:purple][0]] = {
-    color: [],
-    gender: [],
-    lives: []
-  }
+  ##color hash
+  pigeon_list[data[:color][:purple][0]] = {color: [data[:color][:purple].key[0]]}
 end
