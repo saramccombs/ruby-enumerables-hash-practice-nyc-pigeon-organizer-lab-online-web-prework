@@ -6,5 +6,11 @@
   # For each key-name, assign that to key 
 
 def nyc_pigeon_organizer(data)
-  p data[:color][:purple][0]
+  pigeon_list = {}
+  
+  pigeon_list[data[:color][:purple][0]] = {
+    color: [],
+    gender: [],
+    lives: []
+  }
 end
