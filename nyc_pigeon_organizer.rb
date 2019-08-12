@@ -9,7 +9,7 @@ def nyc_pigeon_organizer(data)
   pigeon_list = {}
   
   ##color hash
-  data.each do |key, value|
+  data.each do |thing1, (key, value)|
   pigeon_list[data][key][value][0]] = {
     color: [data[:color][:purple][0].key
     }
