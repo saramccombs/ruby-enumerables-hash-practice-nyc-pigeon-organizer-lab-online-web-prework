@@ -11,8 +11,8 @@ def nyc_pigeon_organizer(data)
   ##color hash
   data.each do |thing, (key, value)|
     p thing
-    p thing[key]
-    p thing[value]
+    #p thing[key]
+    #p thing[value]
     
   #pigeon_list[data][key][value][0]] = {
   # color: [data[:color][:purple][0].key
