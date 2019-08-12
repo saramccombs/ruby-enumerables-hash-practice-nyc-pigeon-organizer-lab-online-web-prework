@@ -14,8 +14,8 @@ def nyc_pigeon_organizer(data)
     p attibute[key]
     p attribute[value]
     
-  pigeon_list[data][key][value][0]] = {
-    color: [data[:color][:purple][0].key
-    }
+  #pigeon_list[data][key][value][0]] = {
+  # color: [data[:color][:purple][0].key
+  #}
   end
 end
