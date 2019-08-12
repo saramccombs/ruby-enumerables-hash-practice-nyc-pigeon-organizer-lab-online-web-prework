@@ -5,5 +5,5 @@ def nyc_pigeon_organizer(data)
   #When you iterate each :color element, you will collect the key-names in an array
   #Check if the key-name already exists, create new if FALSE
   # For each key-name, assign that to key 
-  p data[:color]
+  p data[:color][:purple]
 end
